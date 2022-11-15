@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "crud-ufc-firebase",
+    "slug": "crud-ufc-firebase",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
