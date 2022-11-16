@@ -9,6 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-firebase/app": "^16.4.4",
     "expo": "~47.0.5",
     "expo-splash-screen": "~0.17.5",
     "expo-status-bar": "~1.4.2",

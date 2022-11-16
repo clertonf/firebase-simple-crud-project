@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "444382608763",
+    "project_id": "fir-concepts-ufc",
+    "storage_bucket": "fir-concepts-ufc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444382608763:android:0512f332649e9371ebd1de",
+        "android_client_info": {
+          "package_name": "com.crudufcfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444382608763-scq4rj1g6rosd8nffop34ch738ba0nhr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.crudufcfirebase",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "444382608763-8001od4016oj8f1f6jbuu65oqdg7d4g9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP0P9Jseq9jh0On9iySLUsWrfurY-OuvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444382608763-8001od4016oj8f1f6jbuu65oqdg7d4g9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
