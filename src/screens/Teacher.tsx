@@ -13,7 +13,7 @@ import { AppNavigatorRoutesProps } from '@routes/app.routes';
 export function Teacher() {
   const navigation = useNavigation<AppNavigatorRoutesProps>();
 
-  const [students, setStudents] = useState<CardInfoProps[]>([]);
+  const [teachers, setTeachers] = useState<CardInfoProps[]>([]);
 
   function handleGoBack() {
     navigation.goBack();
@@ -29,7 +29,7 @@ export function Teacher() {
             ...doc.data(),
           };
         }) as CardInfoProps[];
-        setStudents(data);
+        setTeachers(data);
       });
 
     return () => subscribe();
@@ -83,7 +83,7 @@ export function Teacher() {
         </VStack>
 
         <FlatList
-          data={students}
+          data={teachers}
           keyExtractor={(item) => item.id}
           renderItem={({ item }) => (
             <Card

@@ -76,7 +76,7 @@ export function RegisterTeacher() {
       .then(() => {
         navigation.goBack();
         toast.show({
-          title: 'Estudante cadastrado com sucesso',
+          title: 'Professor cadastrado com sucesso',
           placement: 'top',
           bgColor: 'green.500',
         });
